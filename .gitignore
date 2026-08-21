@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.spyproject/
+venv/
+.env
+*.pkl
+synthetic_orders.json
+orders.json
