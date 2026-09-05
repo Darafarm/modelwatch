@@ -11,6 +11,7 @@ import joblib
 # 1. Load the synthetic dataset (real MongoGuard data had no genuine price signal)
 df = pd.read_json("synthetic_orders.json")
 
+print(df.head(5))
 X = df[["product", "quantity", "customer_type", "region"]]
 y = df["price"]
 
